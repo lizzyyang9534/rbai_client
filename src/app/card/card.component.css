@@ -51,6 +51,7 @@
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  padding: 0 !important;
 }
 
 .card>.front,
@@ -188,6 +189,7 @@
 .back>.content>.header+.subtitle+.description {
   margin-top: 0.5em;
 }
+
 /*buton*/
 
 .button {
@@ -257,7 +259,7 @@
   top: 50%;
   width: 50%;
   background-repeat: no-repeat;
-  background-image: url(img/divider.png);
+  background-image: url(assets/img/divider.png);
 }
 
 .horizontal.divider:before {

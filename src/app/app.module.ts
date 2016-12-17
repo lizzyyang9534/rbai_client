@@ -12,6 +12,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { LoginComponent } from './login/login.component';
 import { CardComponent } from './card/card.component';
 import { HomeComponent } from './home/home.component';
+import { MembersComponent } from './members/members.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     CarouselComponent,
     LoginComponent,
     CardComponent,
-    HomeComponent
+    HomeComponent,
+    MembersComponent
   ],
   imports: [
     BrowserModule,
